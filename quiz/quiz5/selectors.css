@@ -8,17 +8,17 @@ body {
 
 /* Make the <h1> element #9b59b6*/
 h1 {
-  background-color: #9b59b6;
+  color: #9b59b6;
 }
 
 /* Make all <h2> elements orange */
 h2 {
-  background-color: orange;
+  color: orange;
 }
 
 /* Make all <li> elements blue(pick your own hexadecimal blue)*/
 li {
-  background-color: #2f10e2;
+  color: #2f10e2;
 }
 
 /*Change the background on every paragraph to be yellow*/
@@ -52,7 +52,7 @@ input[type="text"] {
 }
 
 /* Give both <p>'s inside the 3rd <div> a pink background*/
-div:nth-of-type(3) {
+div:nth-of-type(3) p {
   background-color: pink;
 }
 
