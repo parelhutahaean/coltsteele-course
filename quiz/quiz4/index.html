@@ -17,9 +17,8 @@
       <label for="email">Email</label>
       <input type="email" name="email" id="email" placeholder="Email" required>
       <label for="password">Password</label>
-      <input type="password" name="password" id="password" placeholder="Password" minlength="5"
-       maxlength="10"><br>
-      <label>Birthday</label>
+      <input type="password" name="password" id="password" placeholder="Password" pattern=".{5,10}" title="5 to 10 characters" required><br>
+      <label>Birthday:</label>
       <select name="month" id="month">
         <option selected disabled>Month</option>
         <option value="january">January</option>
