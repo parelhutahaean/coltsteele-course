@@ -1,0 +1,42 @@
+/*
+border color: #bdc3c7
+date color: #3498db
+h2 color: 2c3e50
+
+font: source sans pro
+hr style
+*/
+body {
+  font-family: source sans pro;
+}
+
+.container {
+  margin: auto;
+  padding: 0 20px 20px 20px;
+  width: 60%;
+  border: 20px solid #bdc3c7;
+}
+
+.date {
+  text-transform: uppercase;
+  color: #3498db;
+  letter-spacing: 0.5em;
+}
+
+.title {
+  color: #2c3e50;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.content > p:nth-of-type(1) {
+  border-left: 5px solid #bdc3c7;
+  padding-left: 5px;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
